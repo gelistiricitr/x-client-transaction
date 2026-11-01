@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "x-client-transaction"
+version = "1.0.0"
+description = "X (Twitter) X-Client-Transaction-Id header generator library (ondemand & x-web Rolldown compatible)"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "gelistiricitr"}
+]
+keywords = ["twitter", "x", "x-client-transaction-id", "api", "scraper", "automation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "beautifulsoup4>=4.12.0",
+    "curl_cffi>=0.7.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/gelistiricitr/x-client-transaction"
+Repository = "https://github.com/gelistiricitr/x-client-transaction"
